@@ -8,7 +8,7 @@ Parallaxing for all. One bound onScroll event to tween any number of transitions
 initFleet();
 ~~~~
 
-is all that is needed to bind scroll and resize handlers to the document which cycles through fleet nodes (by default, iniFleet({**nds**:'.fleet'})) and the children on which to apply the transition styles (by default, iniFleet({**affectedChildren**:'.item'})). The markup therefore has two levels:
+is all that is needed to bind scroll and resize handlers to the document which cycles through fleet nodes (by default, initFleet({**nds**:'.fleet'})) and the children on which to apply the transition styles (by default, initFleet({**affectedChildren**:'.item'})). The markup therefore has two levels:
 ~~~~
 <div class="fleet" data-fleet="">
     <div class="item"></div>
